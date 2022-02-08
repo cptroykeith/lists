@@ -71,6 +71,7 @@ print(sum(nums))
 print(sum(nums)/len(nums))
 '''
 #getting average of a number ,method1
+'''
 total = 0
 count = 0
 while True :
@@ -92,3 +93,16 @@ while True:
 
 average = sum(numlist) / len(numlist)
 print('Average:', average)
+'''
+
+#split
+abc = 'with three words'
+stuff = abc.split()
+print(stuff)
+print(len(stuff))
+print(stuff[0])
+#you can specify what delimiter character to use in the split
+line = 'first;second;third'
+thing = line.split(';')
+print(thing)
+print(len(thing))
