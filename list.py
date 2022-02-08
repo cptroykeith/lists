@@ -38,10 +38,17 @@ c = a + b
 print(c)
 '''
 #list slicing
+'''
 t = [1, 2, 3, 4, 5, 6]
 print(t[1:3])
 print(t[4:])
 print(t[:])
-
-
+'''
+#building a list 
+stuff = list()
+stuff.append('book')
+stuff.append(88)
+print(stuff)
+stuff.append('cookie')
+print(stuff)
 
