@@ -45,10 +45,17 @@ print(t[4:])
 print(t[:])
 '''
 #building a list 
+'''
 stuff = list()
 stuff.append('book')
 stuff.append(88)
 print(stuff)
 stuff.append('cookie')
 print(stuff)
+'''
 
+#sorting of list
+friends = ['roy', 'keith', 'william']
+friends.sort()
+print(friends)
+print(friends[1])
