@@ -11,6 +11,7 @@ friends = ['roy', 'keith', 'william']
 print(friends[1])
 '''
 #lists are Mutable/changable
+'''
 fruit = 'Banana'
 fruit[0] = 'b'
 x = fruit.lower()
@@ -21,4 +22,9 @@ print(lotto)
 lotto[2] = 28
 
 print(lotto)
+'''
+# using the len and range function
+friends = ['roy', 'keith', 'william']
+print(len(friends))
 
+print(range(len(friends)))
