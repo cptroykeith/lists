@@ -62,9 +62,33 @@ print(friends)
 print(friends[1])
 '''
 #built-in functions and lists
+'''
 nums = [2, 14, 25, 41, 65]
 print(len(nums))
 print(max(nums))
 print(min(nums))
 print(sum(nums))
 print(sum(nums)/len(nums))
+'''
+#getting average of a number ,method1
+total = 0
+count = 0
+while True :
+    inp = input('Enter a number: ')
+    if inp == 'done' : break
+    value = float(inp)
+    total = total + value
+    count = count + 1
+average = total / count
+print('Average:',average)
+
+#method2
+numlist = list()
+while True:
+     inp = input('Enter a number: ')
+     if inp == 'done' : break
+     value = float(inp)
+     numlist.append(value)
+
+average = sum(numlist) / len(numlist)
+print('Average:', average)
