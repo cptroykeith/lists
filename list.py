@@ -24,7 +24,14 @@ lotto[2] = 28
 print(lotto)
 '''
 # using the len and range function
+'''
 friends = ['roy', 'keith', 'william']
 print(len(friends))
 
 print(range(len(friends)))
+'''
+#adding of list
+a = [1, 2, 3]
+b = [4, 5, 6]
+c = a + b
+print(c)
