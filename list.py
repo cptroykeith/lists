@@ -55,7 +55,16 @@ print(stuff)
 '''
 
 #sorting of list
+'''
 friends = ['roy', 'keith', 'william']
 friends.sort()
 print(friends)
 print(friends[1])
+'''
+#built-in functions and lists
+nums = [2, 14, 25, 41, 65]
+print(len(nums))
+print(max(nums))
+print(min(nums))
+print(sum(nums))
+print(sum(nums)/len(nums))
